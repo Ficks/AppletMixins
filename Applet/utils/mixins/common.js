@@ -1,4 +1,4 @@
-// 公共方法只要调用了mergePage 就会把这个界面和混入page
+// 公共方法只要调用了merge 就会把这个界面和混入page
 export default {
   data: {
     userInfo: {

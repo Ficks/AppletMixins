@@ -1,5 +1,5 @@
 //index.js
-import mergePage from '../../utils/mixins/mixins';
+import merge from '../../utils/mixins/mixins';
 
 // 这个东西我会在列表使用，上拉加载上拉刷新，对列表数据的一个处理
 import listMixin from '../../utils/mixins/list';
@@ -32,7 +32,7 @@ let page = {
 // 第二个参数是Mixins数组
 
 Page (
-  mergePage (page, [
+  merge (page, [
     listMixin,
     {
       // 也可以这样直接写

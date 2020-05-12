@@ -1,6 +1,6 @@
 import {deepClone} from '../common';
 import CommonMixin from './common';
-export default function mergePage (page, mixins) {
+export default function merge (page, mixins) {
   // const mixin = mixins[0];
   mixins = Array.isArray (mixins) ? mixins : [];
   mixins.unshift (CommonMixin);
